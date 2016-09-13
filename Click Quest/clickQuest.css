@@ -1,0 +1,126 @@
+
+@font-face {
+ font-family: 'Boots';
+ src: url('Old_Englished_Boots.ttf');
+ }
+
+@font-face {
+ font-family: 'Ancient';
+ /*src: url('Old_Englished_Boots.ttf'); */
+ src: url('Faith Collapsing.ttf');}
+
+body{
+	background: url(darkForrest.jpg);
+  background-size: cover;
+  z-index: 1;
+}
+
+#title{
+  color: white;
+  font-family: 'Ancient';
+  z-index: 3;
+  text-align: center;
+  font-size: 180px;
+  font-weight: normal
+}
+
+#game-message
+{
+	clear:both;
+}
+
+#welcomeDiv{
+	margin-top: 210px;
+  opacity:.92;
+	 background-color: black;
+	 z-index:2;
+}
+
+.gameplay
+{
+	display:none;
+}
+
+.gameplay img
+{
+	border-radius: 200px;
+}
+
+#character img
+{
+	margin-top: 150px;
+	float: left;
+	height: 400px;
+}
+
+#enemy img
+{
+	margin-top: 150px;
+	float: right;
+	height: 400px;
+	width: 550px;
+}
+
+#enemy:hover
+{
+	cursor:pointer;
+	opacity:.95;
+}
+
+#char-health
+{
+	clear:both;
+	margin-top: 10px;
+	float: left;
+	font-size:12em;
+	font-family: 'Boots';
+	color:red;
+	margin-left: 190px;
+}
+
+#enemy-health
+{
+	margin-top: 10px;
+	float: right;
+	font-size:12em;
+	font-family: 'Boots';
+	color:red;
+	margin-right: 190px;
+}
+
+#description{
+  color: white;
+  font-family: 'Boots';
+  text-align: center;
+  font-size: 35px;
+  z-index: 4;
+  margin-left: 20%;
+  margin-right: 20%;
+
+}
+
+#startButton{
+  background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+
+	  color: white;
+	  margin: auto;
+	  font-family: 'Ancient';
+	  font-size: 50px;
+	  display: block;
+}
+
+#startButton:hover{
+	  color: #33cccc;
+  }
+
+  #game-message
+  {
+	  font-family: 'Boots';
+	  font-size: 4.5em;
+	  color:red;
+
+  }
